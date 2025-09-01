@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Doe - Product-Focused Front-End Developer</title>
+    <meta name="description" content="Product-focused front-end developer creating intuitive digital experiences with modern web technologies.">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://alexdoe.dev/">
+    <meta property="og:title" content="Alex Doe - Product-Focused Front-End Developer">
+    <meta property="og:description" content="Product-focused front-end developer creating intuitive digital experiences with modern web technologies.">
+    <meta property="og:image" content="https://alexdoe.dev/assets/avatar.svg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://alexdoe.dev/">
+    <meta property="twitter:title" content="Alex Doe - Product-Focused Front-End Developer">
+    <meta property="twitter:description" content="Product-focused front-end developer creating intuitive digital experiences with modern web technologies.">
+    <meta property="twitter:image" content="https://alexdoe.dev/assets/avatar.svg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+    <link rel="manifest" href="/assets/site.webmanifest">
+    <meta name="theme-color" content="#2563eb">
+    
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Alex Doe",
+        "jobTitle": "Front-End Developer",
+        "description": "Product-focused front-end developer creating intuitive digital experiences",
+        "url": "https://alexdoe.dev",
+        "sameAs": [
+            "https://github.com/alexdoe",
+            "https://linkedin.com/in/alexdoe"
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Alex Doe Portfolio",
+        "url": "https://alexdoe.dev"
+    }
+    </script>
+</head>
+<body>
+    <!-- Skip to content for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <!-- Navigation -->
+    <nav class="nav" id="navigation" role="navigation" aria-label="Main navigation">
+        <div class="container">
+            <div class="nav__content">
+                <a href="#home" class="nav__logo">Alex Doe</a>
+                <ul class="nav__menu">
+                    <li><a href="#about" class="nav__link">About</a></li>
+                    <li><a href="#projects" class="nav__link">Projects</a></li>
+                    <li><a href="#skills" class="nav__link">Skills</a></li>
+                    <li><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+                    <span class="theme-toggle__icon"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="container">
+                <div class="hero__content">
+                    <h1 class="hero__title">
+                        Hi, I'm <span class="hero__name">Alex Doe</span>
+                    </h1>
+                    <h2 class="hero__subtitle">Product-Focused Front-End Developer</h2>
+                    <p class="hero__description">
+                        I create intuitive digital experiences that bridge the gap between design and functionality, 
+                        helping teams ship products that users love.
+                    </p>
+                    <div class="hero__actions">
+                        <a href="#contact" class="btn btn--primary">Get In Touch</a>
+                        <a href="#projects" class="btn btn--secondary">View Projects</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section" id="about">
+            <div class="container">
+                <h2 class="section__title">About Me</h2>
+                <div class="about">
+                    <div class="about__content">
+                        <p class="about__text">
+                            I'm a front-end developer with 5+ years of experience building scalable web applications. 
+                            I specialize in React, TypeScript, and modern CSS, with a keen eye for user experience and performance optimization.
+                        </p>
+                        <p class="about__text">
+                            When I'm not coding, you'll find me exploring new technologies, contributing to open source projects, 
+                            or sharing knowledge through technical writing and mentoring.
+                        </p>
+                    </div>
+                    <div class="about__image">
+                        <img src="assets/avatar.svg" alt="Alex Doe" class="about__avatar">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section" id="projects">
+            <div class="container">
+                <h2 class="section__title">Featured Projects</h2>
+                <div class="projects">
+                    <article class="project-card">
+                        <img src="assets/placeholder-project-1.svg" alt="E-commerce Dashboard" class="project-card__image">
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">E-commerce Dashboard</h3>
+                            <p class="project-card__description">
+                                A comprehensive admin dashboard for managing products, orders, and analytics with real-time updates.
+                            </p>
+                            <div class="project-card__tags">
+                                <span class="tag">React</span>
+                                <span class="tag">TypeScript</span>
+                                <span class="tag">Chart.js</span>
+                            </div>
+                            <div class="project-card__links">
+                                <a href="https://demo.alexdoe.dev/dashboard" class="project-card__link" target="_blank" rel="noopener">
+                                    Demo
+                                </a>
+                                <a href="https://github.com/alexdoe/dashboard" class="project-card__link" target="_blank" rel="noopener">
+                                    Code
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <img src="assets/placeholder-project-2.svg" alt="Task Management App" class="project-card__image">
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">Task Management App</h3>
+                            <p class="project-card__description">
+                                A collaborative task management tool with drag-and-drop functionality and team collaboration features.
+                            </p>
+                            <div class="project-card__tags">
+                                <span class="tag">Vue.js</span>
+                                <span class="tag">Node.js</span>
+                                <span class="tag">Socket.io</span>
+                            </div>
+                            <div class="project-card__links">
+                                <a href="https://demo.alexdoe.dev/tasks" class="project-card__link" target="_blank" rel="noopener">
+                                    Demo
+                                </a>
+                                <a href="https://github.com/alexdoe/tasks" class="project-card__link" target="_blank" rel="noopener">
+                                    Code
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <img src="assets/placeholder-project-3.svg" alt="Weather App" class="project-card__image">
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">Weather Forecast App</h3>
+                            <p class="project-card__description">
+                                A beautiful weather application with location-based forecasts and interactive maps.
+                            </p>
+                            <div class="project-card__tags">
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">CSS3</span>
+                                <span class="tag">API</span>
+                            </div>
+                            <div class="project-card__links">
+                                <a href="https://demo.alexdoe.dev/weather" class="project-card__link" target="_blank" rel="noopener">
+                                    Demo
+                                </a>
+                                <a href="https://github.com/alexdoe/weather" class="project-card__link" target="_blank" rel="noopener">
+                                    Code
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <img src="assets/placeholder-project-4.svg" alt="Portfolio Website" class="project-card__image">
+                        <div class="project-card__content">
+                            <h3 class="project-card__title">Design System Library</h3>
+                            <p class="project-card__description">
+                                A comprehensive design system with reusable components and documentation for consistent UI development.
+                            </p>
+                            <div class="project-card__tags">
+                                <span class="tag">Storybook</span>
+                                <span class="tag">SCSS</span>
+                                <span class="tag">Design Tokens</span>
+                            </div>
+                            <div class="project-card__links">
+                                <a href="https://demo.alexdoe.dev/design-system" class="project-card__link" target="_blank" rel="noopener">
+                                    Demo
+                                </a>
+                                <a href="https://github.com/alexdoe/design-system" class="project-card__link" target="_blank" rel="noopener">
+                                    Code
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section" id="skills">
+            <div class="container">
+                <h2 class="section__title">Skills & Technologies</h2>
+                <div class="skills">
+                    <div class="skill-group">
+                        <h3 class="skill-group__title">Languages</h3>
+                        <div class="skill-group__tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">TypeScript</span>
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">Python</span>
+                        </div>
+                    </div>
+                    <div class="skill-group">
+                        <h3 class="skill-group__title">Frameworks & Libraries</h3>
+                        <div class="skill-group__tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Vue.js</span>
+                            <span class="tag">Next.js</span>
+                            <span class="tag">Tailwind CSS</span>
+                            <span class="tag">SCSS</span>
+                        </div>
+                    </div>
+                    <div class="skill-group">
+                        <h3 class="skill-group__title">Tools & Technologies</h3>
+                        <div class="skill-group__tags">
+                            <span class="tag">Git</span>
+                            <span class="tag">Webpack</span>
+                            <span class="tag">Docker</span>
+                            <span class="tag">Figma</span>
+                            <span class="tag">Jest</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section" id="contact">
+            <div class="container">
+                <h2 class="section__title">Get In Touch</h2>
+                <div class="contact">
+                    <div class="contact__content">
+                        <p class="contact__text">
+                            I'm always interested in new opportunities and collaborations. 
+                            Let's discuss how we can work together to create something amazing.
+                        </p>
+                        <a href="mailto:hello@alexdoe.dev" class="contact__email">hello@alexdoe.dev</a>
+                    </div>
+                    <form class="contact-form" id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" id="name" name="name" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" class="form-input form-textarea" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary">Send Message</button>
+                        <div class="form-status" id="form-status" aria-live="polite"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer__content">
+                <p class="footer__copyright">© 2024 Alex Doe. All rights reserved.</p>
+                <div class="footer__social">
+                    <a href="https://github.com/alexdoe" class="footer__link" target="_blank" rel="noopener" aria-label="GitHub">
+                        GitHub
+                    </a>
+                    <a href="https://linkedin.com/in/alexdoe" class="footer__link" target="_blank" rel="noopener" aria-label="LinkedIn">
+                        LinkedIn
+                    </a>
+                    <a href="mailto:hello@alexdoe.dev" class="footer__link" aria-label="Email">
+                        Email
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js" defer></script>
+</body>
+</html>
